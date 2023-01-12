@@ -1,0 +1,211 @@
+review 10_29_22
+=================
+
+=> STLC
+=> Bug life cycle 
+=> your questions
+
+=================
+
+STLC
+
+requirement analysis 
+=====================
+=> in agile, scrum (kanban) it is happening during the sprint 
+=> our testing life cycle starts from Sprint Planning and lasts till Demo
+
+there 2 kind of STLC 
+1st 
+- per release or even the application life 
+- Test Architect, Test Manager analysis the whole requirement for the application  life cycle, or per release
+
+2nd
+- for tester
+- requirement analysis starts at Sprint Planning 
+- testers are reviewing USs and ACs to make sure they understand it
+- testers make sure required test data is available 
+(mock data means not real data and it is used for testing purpose)
+
+Nadir Shafiyev
+Mustafa Baz
+
+Nadir Baz
+Mustafa Shafiyev
+
+==========================
+
+Test Planning 
+==========================
+- test planning for release - this is done by QA Manager 
+- what you have seen in pds it is release related 
+
+- in sprint testers in the team, plan the testing
+- Test Plan for each sprint is done by the team members (testers) of that dev team
+- usually it is done in test management tool
+- here we will learn jira xray
+- how manual test coverage will be handled
+- how much automation 
+- which scenarios will go to smoke
+- which scenarios will go to regression
+
+=============================
+Test Scenario - is description
+Test Case has steps 
+
+TS1 - User Logs in with valid credentials       - positive
+TS2 - User can not login with invalid password  - negative
+TS3 - User can not login with invalid username  - negative
+TS4 - User can not login with empty password    - exceptional 
+
+
+TC1 - User Logs in with valid credentials
+Given user is in login page
+When user enters valid username
+And user enters valid password
+And user click on login button
+Then user should be able to see home page for that user
+
+at work we use test management tools which helps us to create and store the test cases
+==================================
+
+test environment is created by devops team for us to use
+we have to make sure that developers code deployed to test env
+it is not our job to deploy developers code to test env
+but we should be able to check and start testing after that 
+each company has it is own way of deployment of the code 
+companies use tools likes jenkins to handle deployments 
+
+===========================================================
+
+push happens between branches 
+deployment happens between environments
+
+
+before creating the defect
+- rerun run the scenario 
+- talk to another tester in the team
+- talk to your developer 
+- bring to stand up get BA's idea even needed PO's idea
+
+============================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
